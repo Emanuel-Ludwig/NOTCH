@@ -1,0 +1,436 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>NOTCH | Building Digital. Securing Spaces.</title>
+  <meta name="description" content="NOTCH in Dar es Salaam, Tanzania. Web development, software solutions, CCTV, access control, security gates and networking.">
+
+  <meta name="theme-color" content="#071525">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="nastytech.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="NOTCH home">
+      <span class="brand-mark">N</span>
+      <span>NOTCH<span class="brand-dot">.</span></span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" type="button"
+      aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="menu">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-grid"></div>
+
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="kicker">
+            <span class="status-dot"></span>
+            DAR ES SALAAM, TANZANIA
+          </p>
+
+          <h1>
+            Building digital.<br>
+            <span>Securing spaces.</span>
+          </h1>
+
+          <p class="lead">
+            We build powerful websites, mobile applications and software,
+            while delivering reliable CCTV, access control and networking
+            solutions. Everything your business needs, under one roof.
+          </p>
+
+          <div class="actions">
+            <a class="btn" href="https://wa.me/255689370355"
+              target="_blank" rel="noopener noreferrer">
+              Get started <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a class="btn ghost" href="#services">
+              Explore our services
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span><i class="fa-solid fa-code"></i> Digital solutions</span>
+            <span><i class="fa-solid fa-shield-halved"></i> Smart security</span>
+          </div>
+        </div>
+
+        <!-- CSS 3D FEATURE -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+
+          <div class="tech-core">
+            <div class="core-inner">
+              <span class="core-symbol">N</span>
+              <span class="core-caption">INNOVATION / SECURITY</span>
+            </div>
+          </div>
+
+          <div class="floating-chip chip-one">
+            <i class="fa-solid fa-code"></i>
+            <span>DEVELOP</span>
+          </div>
+
+          <div class="floating-chip chip-two">
+            <i class="fa-solid fa-shield-halved"></i>
+            <span>SECURE</span>
+          </div>
+
+          <div class="floating-chip chip-three">
+            <i class="fa-solid fa-network-wired"></i>
+            <span>CONNECT</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#services">
+        <span>SCROLL TO EXPLORE</span>
+        <i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="block services-section">
+      <div class="section-heading reveal">
+        <p class="section-kicker">WHAT WE DO</p>
+        <h2>Technology that moves you forward<span>.</span></h2>
+        <p>Practical digital and security solutions built around your needs.</p>
+      </div>
+
+      <div class="services">
+
+        <article class="service reveal">
+          <div class="pic">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="13" rx="1"/>
+              <path d="M8 21h8M12 17v4M7 8h10M7 12h6"/>
+            </svg>
+            <img src="images/laptop2.jpg" alt="Web and mobile development"
+              onerror="this.style.display='none'">
+          </div>
+          <span class="service-number">01</span>
+          <h3>Web &amp; Mobile App Development</h3>
+          <p>Modern websites and mobile applications that look sharp, perform smoothly and help businesses grow.</p>
+          <a class="service-link" href="#contact">Explore service <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service reveal">
+          <div class="pic">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/>
+            </svg>
+            <img src="images/phone 1.jpg" alt="Software solutions"
+              onerror="this.style.display='none'">
+          </div>
+          <span class="service-number">02</span>
+          <h3>Software Solutions</h3>
+          <p>Custom software systems for billing, stock management, schools and business operations.</p>
+          <a class="service-link" href="#contact">Explore service <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service reveal">
+          <div class="pic">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M3 12c3-6 15-6 18 0M12 16v4"/>
+            </svg>
+            <img src="images/cctv2.jpg" alt="CCTV surveillance"
+              onerror="this.style.display='none'">
+          </div>
+          <span class="service-number">03</span>
+          <h3>CCTV &amp; Surveillance</h3>
+          <p>Professional security camera installation and configuration with remote monitoring from your phone.</p>
+          <a class="service-link" href="#contact">Explore service <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service reveal">
+          <div class="pic">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+            <img src="images/access2.jpg" alt="Access control and security gates"
+              onerror="this.style.display='none'">
+          </div>
+          <span class="service-number">04</span>
+          <h3>Security Gates &amp; Access Control</h3>
+          <p>Fingerprint and keypad access systems, video intercoms and automatic gate solutions.</p>
+          <a class="service-link" href="#contact">Explore service <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="service reveal">
+          <div class="pic">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="5" r="2"/>
+              <circle cx="5" cy="18" r="2"/>
+              <circle cx="19" cy="18" r="2"/>
+              <path d="M12 7v5M12 12l-6 5M12 12l7 5"/>
+            </svg>
+            <img src="images/networking.jpg" alt="Networking infrastructure"
+              onerror="this.style.display='none'">
+          </div>
+          <span class="service-number">05</span>
+          <h3>Networking &amp; IT Solutions</h3>
+          <p>Reliable Wi-Fi, structured cabling, network configuration and complete office IT infrastructure.</p>
+          <a class="service-link" href="#contact">Explore service <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- WHY NOTCH -->
+    <section id="why" class="block why">
+      <div class="why-content reveal">
+        <p class="section-kicker">WHY CHOOSE US</p>
+        <h2>Built on innovation.<br><span>Driven by reliability.</span></h2>
+        <p class="why-description">
+          We combine technology, creativity and practical expertise
+          to help businesses operate smarter and protect what matters.
+        </p>
+
+        <ul class="why-list">
+          <li><i class="fa-solid fa-check"></i> Professional service</li>
+          <li><i class="fa-solid fa-check"></i> Reliable support</li>
+          <li><i class="fa-solid fa-check"></i> Affordable solutions</li>
+          <li><i class="fa-solid fa-check"></i> Modern technology</li>
+          <li><i class="fa-solid fa-check"></i> Customer-focused approach</li>
+        </ul>
+
+        <p class="slogan">Innovative solutions for a smarter tomorrow.</p>
+      </div>
+
+      <div class="why-visual reveal" aria-hidden="true">
+        <div class="why-ring ring-one"></div>
+        <div class="why-ring ring-two"></div>
+        <div class="why-center">
+          <i class="fa-solid fa-microchip"></i>
+          <span>NOTCH</span>
+          <small>SMARTER TECHNOLOGY</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="block contact">
+      <div class="section-heading reveal">
+        <p class="section-kicker">LET'S CONNECT</p>
+        <h2>Have a project in mind<span>?</span></h2>
+        <p>Tell us what you need. Let's build something great together.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Talk to NOTCH.</h3>
+          <p>Reach out for inquiries, consultations and bookings.</p>
+
+          <a href="tel:+255689370355">
+            <i class="fa-solid fa-phone"></i>
+            +255 689 370 355
+          </a>
+
+          <a href="https://wa.me/255689370355"
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i>
+            Call / WhatsApp us
+          </a>
+
+          <span>
+            <i class="fa-solid fa-location-dot"></i>
+            Dar es Salaam, Tanzania
+          </span>
+
+          <p class="note">DM for inquiries and bookings.</p>
+
+          <div class="social">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/emanuel_ldn._?dmpr=cGF4dWhsZ3h2dDRm&utm_source=qrhttps://www.instagram.com/emanuel_ldn._?dmpr=cGF4dWhsZ3h2dDRm&utm_source=qr" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/emanuel-ludwig-0a9102392?utm_source=share_via&utm_content=profile&utm_medium=member_ios" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.tiktok.com/@notch.tech?is_from_webapp=1&sender_device=pc" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form reveal">
+          <label for="name">Your name
+            <input type="text" id="name" name="name"
+              placeholder="Enter your name" required>
+          </label>
+
+          <label for="service">What do you need?
+            <select id="service" name="service" required>
+              <option value="Web & Mobile App Development">Web &amp; Mobile App Development</option>
+              <option value="Software Solutions">Software Solutions</option>
+              <option value="CCTV & Surveillance">CCTV &amp; Surveillance</option>
+              <option value="Gates & Access Control">Gates &amp; Access Control</option>
+              <option value="Networking & IT Solutions">Networking &amp; IT Solutions</option>
+            </select>
+          </label>
+
+          <label for="message">Message
+            <textarea id="message" name="message" rows="5"
+              placeholder="Tell us what you need..." required></textarea>
+          </label>
+
+          <button class="btn submit-btn" type="submit">
+            <i class="fa-brands fa-whatsapp"></i>
+            Send on WhatsApp
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <a class="footer-brand" href="#home">NOTCH<span>.</span></a>
+    <p>Building Digital. Securing Spaces.</p>
+    <p>&copy; <span id="year"></span> NOTCH. All rights reserved.</p>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a class="wa" href="https://wa.me/255689370355"
+    target="_blank" rel="noopener noreferrer"
+    aria-label="Chat with NOTCH on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>WhatsApp</span>
+  </a>
+
+  <!-- JAVASCRIPT: NAVIGATION, FORM, SCROLL & 3D EFFECTS -->
+  <script>
+    // MOBILE NAVIGATION
+    const menuBtn = document.getElementById("menuBtn");
+    const menu = document.getElementById("menu");
+
+    menuBtn.addEventListener("click", () => {
+      const isOpen = menu.classList.toggle("open");
+      menuBtn.setAttribute("aria-expanded", String(isOpen));
+      menuBtn.setAttribute(
+        "aria-label",
+        isOpen ? "Close menu" : "Open menu"
+      );
+    });
+
+    // CLOSE MENU AFTER NAVIGATION
+    menu.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("open");
+        menuBtn.setAttribute("aria-expanded", "false");
+        menuBtn.setAttribute("aria-label", "Open menu");
+      });
+    });
+
+    // WHATSAPP CONTACT FORM
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const name = this.elements.name.value.trim();
+      const service = this.elements.service.value;
+      const message = this.elements.message.value.trim();
+
+      const whatsappMessage =
+        `Hello NOTCH, I'm ${name}.\n` +
+        `I need: ${service}.\n` +
+        `Message: ${message}`;
+
+      const whatsappURL =
+        "https://wa.me/255689370355?text=" +
+        encodeURIComponent(whatsappMessage);
+
+      window.open(whatsappURL, "_blank", "noopener,noreferrer");
+    });
+
+    // AUTOMATIC COPYRIGHT YEAR
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+    // SCROLL REVEAL ANIMATION
+    const revealElements = document.querySelectorAll(".reveal");
+
+    if ("IntersectionObserver" in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.12
+      });
+
+      revealElements.forEach(element => {
+        revealObserver.observe(element);
+      });
+    } else {
+      revealElements.forEach(element => {
+        element.classList.add("is-visible");
+      });
+    }
+
+    // INTERACTIVE 3D SERVICE CARD TILT
+    const cards = document.querySelectorAll(".service");
+
+    const supportsHover = window.matchMedia(
+      "(hover: hover) and (pointer: fine)"
+    ).matches;
+
+    if (supportsHover) {
+      cards.forEach(card => {
+        card.addEventListener("pointermove", event => {
+          const rect = card.getBoundingClientRect();
+          const x = event.clientX - rect.left;
+          const y = event.clientY - rect.top;
+
+          const rotateY = ((x / rect.width) - 0.5) * 10;
+          const rotateX = (0.5 - (y / rect.height)) * 10;
+
+          card.style.setProperty("--rotate-x", `${rotateX}deg`);
+          card.style.setProperty("--rotate-y", `${rotateY}deg`);
+        });
+
+        card.addEventListener("pointerleave", () => {
+          card.style.setProperty("--rotate-x", "0deg");
+          card.style.setProperty("--rotate-y", "0deg");
+        });
+      });
+    }
+  </script>
+
+</body>
+</html>
